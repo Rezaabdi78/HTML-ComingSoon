@@ -1,0 +1,95 @@
+body { 
+    margin: 0px;
+    background-color: #587ef0; 
+color: ivory;}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 200% ;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: ivory;
+    clear: right;
+}
+p {
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 130% ;
+    line-height: 1.5;
+}
+a {
+    text-decoration: none;
+    color: maroon;
+
+}
+img.snapshot{
+    border-width: 5px;
+    border-style: solid;
+    border-color: whitesmoke;
+    box-shadow: 5px 5px 15px rgba(216, 204, 204, 0.322);
+    margin: 10px;
+    -moz-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.lowercase{
+    text-transform: lowercase;
+}
+
+.rightFloat{
+    float: right;
+}
+div {
+    border-width: 1px;
+    border-color: transparent;
+    border-radius: 8px;
+}
+
+#container {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+
+#main{
+    background-color: #3a3a3a;
+    padding: 40px;
+    box-shadow: 10px 10px 15px rgba(53, 8, 53, 0.418) ;
+
+    }
+
+#priority{
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(53, 8, 53, 0.418) ;
+    background-color: bisque;
+    color: #124188 ;
+    width: 95%;
+    text-align: center;
+    margin: auto;
+    clear: both;
+    font-size: 90%;
+
+}
+
+#contact{
+    padding: 50px;
+    text-align: center;
+    font-size: 50%;
+
+}
+#contact img{
+    
+    margin: 10px;
+}
+
+#priority a{
+    color: #124188 ;
+}
+
+#priority a:hover{
+    color: #ff8800;
+}
